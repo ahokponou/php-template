@@ -6,6 +6,11 @@ class HomeController extends Controller
 {
     public function index():string
     {
-        return $this->render("home/home")->send();
+        return $this->render(
+            "sucess",
+            [
+                "PHP Template"
+            ]
+        )->send();
     }
 }
