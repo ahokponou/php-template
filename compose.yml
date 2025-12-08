@@ -1,0 +1,22 @@
+name: web
+
+networks:
+  net-web:
+    name: net-web
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: web
+    hostname: web
+    environment:
+      UID: ${UID:-501}
+      GID: ${GID:-30}
+    volumes:
+      - ./:/var/www/html:rw
+    networks:
+      - net-web
+    ports:
+      - "0.0.0.0:443:443"
