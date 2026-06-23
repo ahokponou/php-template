@@ -1,12 +1,12 @@
-# php js template
+# php template
 
-Minimal vanilla PHP + vanilla JavaScript starter, built with Vite and Composer, following a simple MVC pattern.
+Minimal vanilla PHP starter, built Composer, following a simple MVC pattern.
 
 ## Overview
 
 ### What it is
 
-- A lightweight starter to build server-rendered PHP apps with a modern JS dev experience.
+- A lightweight starter to build PHP API.
 - No framework lock-in — small, explicit, and easy to understand.
 
 ### Goal
@@ -17,6 +17,4 @@ Minimal vanilla PHP + vanilla JavaScript starter, built with Vite and Composer, 
 
 - Backend: PHP (8.4+ recommended)
 - Dependency manager: Composer
-- Frontend tooling: Vite (dev server + build)
-- Client: Vanilla JavaScript (ES modules)
 - Pattern: Model-View-Controller
